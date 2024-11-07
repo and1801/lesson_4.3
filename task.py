@@ -42,7 +42,7 @@ class Veterinarian:
     def heal_animal(self, animal):
         if isinstance(animal, Animal):
             print(f"{self.name} лечит {animal.name}.")
-            # Добавьте здесь логику лечения
+            
         else:
             print("Это не животное!")
 
@@ -50,7 +50,7 @@ class Veterinarian:
 b1 = Bird('ggg', 5)
 a1 = Animal('rrr', 4)
 m1 = Mammal('zorka', 5)
-r1 = Reptile('replit', 5)
+r1 = Reptile('replit-e', 5)
 v1 = Veterinarian('gosh', 50)
 z1 = Zookeeper('artem', 45)
 
